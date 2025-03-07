@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Etrusco";
+  src: url("/public/fonts/EtruscoNowCompressed-Regular.otf") format("opentype");
+  font-weight: normal; /* Regular font weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Etrusco";
+  src: url("/public//fonts/EtruscoNowCondensed-Bold.otf") format("opentype");
+  font-weight: bold; /* Bold font weight */
+  font-style: normal;
+}
+/* Global styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Etrusco", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
